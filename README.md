@@ -25,3 +25,7 @@
 
      PYTHON >3.6
      
+# _Note_:
+      
+      If u need to download, use ffmpeg to download all segment(ts files) [Take long time😬]
+                 Better stream it
