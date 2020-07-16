@@ -29,12 +29,10 @@ class cs:
 		try:
 			a = b(r1, 'html5lib')
 			c = a.find_all('script')[9].prettify()
-			d = json.loads(c[39:-11])['MovieDetailPage']['data']['hls'][0]
+			d = json.loads(c[39:-11])['MovieDetailPage']['data']['hls'][0].replace('drm', 'hls')
 			r4 = requests.get(self.su)
 			r6 = json.loads(r4.content.decode('utf-8'))['video_token']
-			e = d.replace('drm', 'hls')
-			f = ("\n\nhttps://zee5vod.akamaized.net" + e + r6)
-			print (f)
+			print("\n\nhttps://zee5vod.akamaized.net" + d + r6)
 
 		except KeyboardInterrupt:
 			print ('quit')
@@ -45,6 +43,3 @@ class cs:
 az = input('\n Enter any movie link : ')
 zx = cs(az, "https://useraction.zee5.com/token/")
 zx.movies()
-
-
-
