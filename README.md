@@ -6,11 +6,11 @@
 
 # _Feautres_:
 
-  ● Tv Shows
+  ● Tv Shows ✅
   
   ● Originals (soon)
   
-  ● Movies
+  ● Movies ✅
   
   
 # _Screenshot_:
