@@ -25,5 +25,3 @@
 
      PYTHON >3.6
      
-     html5lib
-     
