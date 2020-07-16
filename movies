@@ -40,6 +40,6 @@ class cs:
 ### I'm not recommending person to download  content illegally
 
 
-az = input('\n Enter any movie link : ')
+az = input('\n Enter movie link : ')
 zx = cs(az, "https://useraction.zee5.com/token/")
 zx.movies()
