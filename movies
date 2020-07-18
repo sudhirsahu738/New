@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import requests
 import json
 from bs4 import BeautifulSoup as b
@@ -30,6 +29,7 @@ class cs:
 			r4 = requests.get(self.su)
 			r6 = json.loads(r4.content.decode('utf-8'))['video_token'] 
 			print ("\n\nhttps://zee5vod.akamaized.net" + c + r6)
+		
 		except KeyboardInterrupt:
 			print ('quit')
 
