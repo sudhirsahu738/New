@@ -17,7 +17,6 @@ class dl:
 	def generate(self):
 		r = requests.get(self.url)
 		rr = r.content
-			
 			try:
 				a = b4(rr, 'html5lib')
 				b = json.loads(a.find_all("script")[9].prettify()[39:-11])["EpisodeDetail"]["episodeData"]['hls'][0].replace('drm', 'hls')
