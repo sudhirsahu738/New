@@ -1,5 +1,7 @@
 # Zee5
 
+[![CodeFactor](https://www.codefactor.io/repository/github/dedshit/zee5/badge)](https://www.codefactor.io/repository/github/dedshit/zee5)
+
 
 # Simple PoC to get anything from *ZEE5* Without premium subscription
 
