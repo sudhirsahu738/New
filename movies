@@ -1,40 +1,30 @@
 import requests
 import json
 from bs4 import BeautifulSoup as b
-
 #====================================
 #| If u have queries contact me 👇👇|
 #|				    |
 #|	 wa.me/+918428425154        |
 #====================================
-
 ### Sample POc shows that zee5 doesn't have DRM protection for premium contents without premium subscription 
 ## That enable pentester to bypass that subscription based thing to free ###
-
 class cs:
-
 	def __init__(self, uri, su):
-
 		self.uri = uri
 		self.su = su
-
 	def movies(self):
-
 		r = requests.get(self.uri)
 		r1 = r.content
-
 		try:
 			a = b(r1, 'html5lib')
 			c = json.loads(a.find_all('script')[9].prettify()[39:-11])['MovieDetailPage']['data']['hls'][0].replace('drm', 'hls')
 			r4 = requests.get(self.su)
 			r6 = json.loads(r4.content.decode('utf-8'))['video_token'] 
-			print ("\n\nhttps://zee5vod.akamaized.net" + c + r6)
-		
+			print ("\n\nhttps://zee5vod.akamaized.net" + c + r6)		
 		except KeyboardInterrupt:
 			print ('quit')
-
 ### I'm not recommending person to download  content illegally
-
 az = input('\n Enter movie link : ')
 zx = cs(az, "https://useraction.zee5.com/token/")
 zx.movies()
+## soon for Livetv too
