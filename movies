@@ -14,9 +14,8 @@ class cs:
 		self.su = su
 	def movies(self):
 		r = requests.get(self.uri)
-		r1 = r.content
 		try:
-			a = b(r1, 'html5lib')
+			a = b(r.content, 'html5lib')
 			c = json.loads(a.find_all('script')[9].prettify()[39:-11])['MovieDetailPage']['data']['hls'][0].replace('drm', 'hls')
 			r4 = requests.get(self.su)
 			r6 = json.loads(r4.content.decode('utf-8'))['video_token'] 
@@ -27,4 +26,5 @@ class cs:
 az = input('\n Enter movie link : ')
 zx = cs(az, "https://useraction.zee5.com/token/")
 zx.movies()
+
 ## soon for Livetv too
