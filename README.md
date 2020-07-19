@@ -13,17 +13,22 @@
   
 # Screenshot# 
                              ||   PREMIUM MOVIE   ||
+                             
   ![alt text](https://raw.githubusercontent.com/dedshit/Zee5/master/zee5.jpg)
   
-                             ||      TV SHOW      ||                          
+                             ||      TV SHOW      ||      
+                             
   ![alt text](https://raw.githubusercontent.com/dedshit/Zee5/master/zee5shows.jpg)
   
 # Requirements#
+
      PYTHON >3.6   
      
 # Note#
+
       If u need to download, use ffmpeg to download all segment(ts files) [Take long time😬]
                  Better stream it!!
 # Contact#
+
      Name : @°
      wa.me/+918428425154
