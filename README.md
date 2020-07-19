@@ -29,7 +29,7 @@
    ![alt text](https://raw.githubusercontent.com/dedshit/Zee5/master/zee5shows.jpg)
   
   
-  
+  ![.github/workflows/python-package.yml](https://github.com/dedshit/Zee5/workflows/.github/workflows/python-package.yml/badge.svg?event=workflow_run)
   
 # _Requirements_:
 
