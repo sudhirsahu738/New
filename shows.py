@@ -17,8 +17,7 @@ class dl:
 	def generate(self):
 		r = requests.get(self.url)
 		rr = r.content
-		if r.status_code == 200:
-			pass
+			
 			try:
 				a = b4(rr, 'html5lib')
 				b = json.loads(a.find_all("script")[9].prettify()[39:-11])["EpisodeDetail"]["episodeData"]['hls'][0].replace('drm', 'hls')
@@ -32,6 +31,7 @@ class dl:
 						print (cr)
 				elif "master.m3u8" in b:
 					print (b + gj)
+			
 			except KeyboardInterrupt:
 				print ("quit")
 
