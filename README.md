@@ -11,7 +11,6 @@
   
   ● Movies ✅ 
   
-  ● LiveTv (tonight)
   
 # Screenshot# 
                              ||   PREMIUM MOVIE   ||
