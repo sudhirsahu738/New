@@ -1,6 +1,8 @@
-import requests
+import re
 import json
+import requests
 from bs4 import BeautifulSoup as b
+
 #====================================
 #| If u have queries contact me 👇👇|
 #|				    |
@@ -19,12 +21,50 @@ class cs:
 			c = json.loads(a.find_all('script')[9].prettify()[39:-11])['MovieDetailPage']['data']['hls'][0].replace('drm', 'hls')
 			r4 = requests.get(self.su)
 			r6 = json.loads(r4.content.decode('utf-8'))['video_token'] 
-			print ("\n\nhttps://zee5vod.akamaized.net" + c + r6)		
+			p = ("https://zee5vod.akamaized.net" + c + r6)
+			r1 = requests.get(p)
+			x = r1.content.decode('utf-8')
+			print ("""
+			     AVAILABLE QUALITIES:
+			        1️⃣ ~ 96p
+			        2️⃣ ~ 144p
+			        3️⃣ ~ 240P
+			        4️⃣ ~ 360P
+			        5️⃣ ~ 480P
+			        6️⃣ ~ 576P
+			        7️⃣ ~ 720P
+			        8️⃣ ~ 1080P
+			""")
+			X = int(input('\n Enter Quality : '))                                      	
+			if X == 1:
+				A = re.findall('index.*',x)[0]
+				print ('\n',p.replace('index.m3u8', A))
+			elif X == 2:
+				Z = re.findall('index.*',x)[1]
+				print ('\n',p.replace('index.m3u8', Z))
+			elif X == 3:
+				C = re.findall('index.*',x)[2]
+				print ('\n',p.replace('index.m3u8', C))
+			elif X == 4:
+				V = re.findall('index.*',x)[3]
+				print ('\n',p.replace('index.m3u8', V))
+			elif X == 5:
+				B = re.findall('index.*',x)[4]
+				print ('\n',p.replace('index.m3u8', B))
+			elif X == 6:
+				N = re.findall('index.*',x)[5]
+				print ('\n',p.replace('index.m3u8', N))
+			elif X == 7:
+				L = re.findall('index.*',x)[6]
+				print ('\n',p.replace('index.m3u8', L))
+			elif X == 8:
+				K = re.findall('index.*',x)[7]
+				print ('\n',p.replace('index.m3u8', K))
+			else:
+				print ('Invalid option!!')
 		except KeyboardInterrupt:
 			print ('quit')
 ### I'm not recommending person to download  content illegally
 az = input('\n Enter movie link : ')
 zx = cs(az, "https://useraction.zee5.com/token/")
 zx.movies()
-
-## soon for Livetv too
