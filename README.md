@@ -23,7 +23,7 @@
                  Better stream it!!
 # Contact#
 
-          Name : @°          |       Name : Ragava DK
+          Name : @°          |  Name : Ragava DK
      wa.me/+918428425154     |  wa.me/+919080876932
      
 # Contributor
