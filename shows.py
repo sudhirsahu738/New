@@ -35,8 +35,7 @@ def shows():
                 if "hls" in _:
                     urls.append(_)
             re1 = (urls[-1][11:-1])
-            re2 = (re1 + tk_m3u)
-            return re2
+            return re1
         else:
             pass
     except IndexError:
