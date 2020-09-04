@@ -1,7 +1,7 @@
 import sys, bs4, requests, argparse
 def usage():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-m", "--M", help="For Movies and Zee5 originals", action="store_true")
+    parser.add_argument("-z", "--Z", help="For Movies and Zee5 originals", action="store_true")
     args, unknown = parser.parse_known_args()
 def movies():
     try:
