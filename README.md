@@ -42,7 +42,7 @@
          
          eg : python3 mov5.py -z, --Z https://zee5.com/movies/"....."
               
-              python3 mov5.py -z https://zee5.com/zee5originals/"..."
+              python3 mov5.py -z https://zee5.com/zee5originals/"..."(specify episode)
      
 # Note
 
