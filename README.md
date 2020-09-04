@@ -14,7 +14,7 @@
 
      PYTHON >3.6
   
-# Usage
+# Usage for Shows:
    
      python3 shows.py -h, --help
      
@@ -33,6 +33,16 @@
          Qualities for Old shows ( 144,240,360,480 )
          
          eg: python3 shows.py --previous https://zee5showlink -q 144
+         
+# Usage for movies and originals:
+
+         python3 mov5.py -h
+         
+         python3 mov5.py -z, --Z movielink/originals
+         
+         eg : python3 mov5.py -z, --Z https://zee5.com/movies/"....."
+              
+              python3 mov5.py -z https://zee5.com/zee5originals/"..."
      
 # Note
 
