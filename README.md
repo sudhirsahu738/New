@@ -9,6 +9,7 @@
   
   ● Movies ✅ 
   
+  ● Originals ✅
 # Requirements
 
      PYTHON >3.6
@@ -41,3 +42,7 @@
 
           Name : @°
      wa.me/+918428425154
+
+| Version |           |
+| ------- | ----------|
+| v2.0.2  |     ✅    |
