@@ -2,7 +2,11 @@ import flask
 import re
 import requests
 import headers
+import logging
 a = flask.Flask(__name__)
+log = logging.getLogger('werkzeug')
+log.disabled = True
+a.logger.disabled = True
 @a.route('/')
 def home():
     return flask.render_template("c/home.html")    
