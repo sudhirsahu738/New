@@ -1,7 +1,7 @@
 # Zee5
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/fcbc4bb229fc4c4bab285e23552cbe61)
 [![CodeFactor](https://www.codefactor.io/repository/github/dedshit/zee5/badge)](https://www.codefactor.io/repository/github/dedshit/zee5)
-# To grab hidden links from *ZEE5* without premium subscription
+# Stream *ZEE5* without damn premium subscription
 
 # Features
 
@@ -10,6 +10,7 @@
   ● Movies ✅ 
   
   ● Originals ✅
+  
 # Requirements
 
      PYTHON >3.6
@@ -19,6 +20,6 @@
           Name : @°
      wa.me/+918428425154
 
-| Version |           |
-| ------- | ----------|
-| v2.0.2  |     ✅    |
+| Version |          |
+| ------- |----------|
+| v2.0.2  |    ✅    |
