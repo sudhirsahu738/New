@@ -73,4 +73,4 @@ def api():
         except KeyError:
             return { "message" : "Try Again" }            
 if __name__ == "__main__":
-    a.run("127.0.0.1", 8080, debug=True)
+    a.run("127.0.0.1", 8080)
