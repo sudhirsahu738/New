@@ -1,6 +1,5 @@
 # Zee5
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/fcbc4bb229fc4c4bab285e23552cbe61)
-
 # Stream *ZEE5* without damn premium subscription
 
 # Features
