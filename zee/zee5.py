@@ -69,7 +69,7 @@ def api():
         except requests.exceptions.MissingSchema:
             return { "message" : "Invalid url", "status" : "error" }, 206
         except IndexError:
-            return flask.jsonify({ "message" : "unknown error, probably try again to fix this" }), 200
+            return flask.jsonify({ "message" : "No url specified" }), 200
         except requests.exceptions.ConnectionError:
             return flask.jsonify({ "message" : "No connection" }), 200
         except UnicodeDecodeError:
