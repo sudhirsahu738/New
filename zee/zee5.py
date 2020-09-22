@@ -2,11 +2,7 @@ import flask
 import re
 import requests
 import headers
-import logging
 a = flask.Flask(__name__)
-log = logging.getLogger('werkzeug')
-log.disabled = True
-a.logger.disabled = True
 @a.route('/')
 def home():
     return flask.render_template("c/home.html")    
@@ -77,4 +73,4 @@ def api():
         except KeyError:
             return { "message" : "Try Again" }            
 if __name__ == "__main__":
-    a.run("127.0.0.1", 8080)
+    a.run("127.0.0.1", 8080, debug=False)
