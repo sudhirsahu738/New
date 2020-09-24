@@ -9,6 +9,10 @@
   
   ● Originals ✅
   
+<img src= https://h.top4top.io/p_1728tqria0.jpg width="200" height="200" />
+
+who else paying for this shit streaming service is absolute xd🈳️✅😂
+
 # Requirements
 
      PYTHON >3.6
@@ -22,4 +26,3 @@
 | ------- |----------|
 | v2.0.4  |    ✅    |
 | v2.0.2  |    ❌    |
-
