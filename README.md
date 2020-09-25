@@ -11,7 +11,7 @@
   
 <img src= https://h.top4top.io/p_1728tqria0.jpg width="200" height="200" />
 
-who else paying for this shit streaming service is absolute xd🈳️✅😂
+who else payed for this shit streaming service is absolute xd🈳️✅😂
 
 # Requirements
 
