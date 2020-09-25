@@ -12,6 +12,7 @@
 <img src= https://camo.githubusercontent.com/afd20b3e38a82cc1250efeaed111bca1db925f45/68747470733a2f2f682e746f7034746f702e696f2f705f313732387471726961302e6a7067 width="200" height="200" />
 
 who else payed for this shit streaming service is absolute xd🈳️✅😂
+  & also using mod is serious shit
 
 # Requirements
 
