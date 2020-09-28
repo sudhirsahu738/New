@@ -77,11 +77,9 @@ def api():
                                             "https://" + li["url"] + g2 + req1["video_token"])
             else:
                 pass
-        except IndexError:
-            return flask.jsonify({ "message" : "No url specified" }), 200
         except requests.exceptions.ConnectionError:
             return flask.jsonify({ "message" : "No connection" })
         except KeyError:
-            return { "message" : "Try Again" }, 200
+            return { "message" : "No Url Specified", "status" : "error" }, 200
 if __name__ == "__main__":
     a.run("127.0.0.1", 8080, debug=True)
