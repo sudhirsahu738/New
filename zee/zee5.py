@@ -2,6 +2,7 @@ import flask
 import re
 import requests
 from headers import headers
+import urls
 a = flask.Flask(__name__)
 @a.route('/')
 def home():
@@ -27,12 +28,11 @@ def api():
     with open("_", 'r') as q1:
         try:
             w = q1.read()
-            req1 = requests.get("https://useraction.zee5.com/tokennd").json()
+            req1 = requests.get(urls.token_url1).json()
             rgx = re.findall("([0-9]?\w+)", w)[-3:]
-            li = { "url":"zee5vodnd.akamaized.net", "token":"https://gwapi.zee5.com/content/details/" }
-            req2 = requests.get("https://useraction.zee5.com/token/platform_tokens.php?platform_name=web_app").json()["token"]
+            req2 = requests.get(urls.platform_token).json()["token"]
             headers["X-Access-Token"] = req2
-            req3 = requests.get("https://useraction.zee5.com/token").json()
+            req3 = requests.get(urls.token_url2).json()
             htm = """
                 <!DOCTYPE html>
                 <html>
@@ -54,16 +54,16 @@ def api():
                     </body>
                 </html>
                 """                               
-            if "movies" in w:
-                r1 = requests.get(li["token"] + "-".join(rgx),
+            if "movies" or "music" in w:
+                r1 = requests.get(urls.search_api_endpoint + "-".join(rgx),
                                             headers=headers, 
                                             params={"translation":"en", "country":"IN"}).json()
                 g1 = (r1["hls"][0].replace("drm", "hls") + req1["video_token"])
                 return htm.format(r1["title"], r1["image_url"], r1["title"], 
                                     r1["age_rating"], r1["rating"], r1["duration"], 
-                                    r1["description"], "https://" + li["url"] + g1)
+                                    r1["description"],  urls.stream_baseurl + g1)
             elif "tvshows" or "originals" in w:
-                r2 = requests.get(li["token"] + "-".join(rgx), 
+                r2 = requests.get(urls.search_api_endpoint + "-".join(rgx), 
                                             headers=headers, 
                                             params={"translation":"en", "country":"IN"}).json()
                 g2 = (r2["hls"][0].replace("drm", "hls"))
@@ -74,7 +74,7 @@ def api():
                 else:
                     return htm.format(r2["title"], r2["image_url"], r2["title"], r2["age_rating"], 
                                             r2["rating"], r2["duration"], r2["description"], 
-                                            "https://" + li["url"] + g2 + req1["video_token"])
+                                            urls.stream_baseurl + g2 + req1["video_token"])
             else:
                 pass
         except requests.exceptions.ConnectionError:
