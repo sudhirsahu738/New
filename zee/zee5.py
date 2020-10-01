@@ -54,7 +54,7 @@ def api():
                     </body>
                 </html>
                 """                               
-            if "movies" or "music" in w:
+            if "movies" in w:
                 r1 = requests.get(urls.search_api_endpoint + "-".join(rgx),
                                             headers=headers, 
                                             params={"translation":"en", "country":"IN"}).json()
