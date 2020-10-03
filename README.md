@@ -34,7 +34,7 @@ who else payed for this shit streaming service is absolute xd🈳️✅😂
           Name : @°
      wa.me/+918428425154   
      
-   FunnyBunnyYT  [SubScribe To My Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
+# FunnyBunnyYT  [SubScribe To My Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
 
 | Version |          |
 | ------- |----------|
