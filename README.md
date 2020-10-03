@@ -19,7 +19,7 @@ who else payed for this shit streaming service is absolute xd🈳️✅😂
 
 # Group
 
- feel free join our Whatsapp Group https://chat.whatsapp.com/BVo2QmkczppF0VVIleVw9H
+ feel free join our Whatsapp Group https://chat.whatsapp.com/DeeyFu3OGG438qgJYrgX7f
      
  
 # Usage 
