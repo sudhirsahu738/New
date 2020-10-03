@@ -16,7 +16,12 @@ who else payed for this shit streaming service is absolute xd🈳️✅😂
 # Requirements
 
      PYTHON >3.6
-  
+
+# Group
+
+ feel free join our Whatsapp Group https://chat.whatsapp.com/BVo2QmkczppF0VVIleVw9H
+     
+ 
 # Usage 
 
    1.  **use github cli for cloning**
