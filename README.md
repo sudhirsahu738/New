@@ -29,10 +29,6 @@ who else payed for this shit streaming service is absolute xd🈳️✅😂
    2.  *Install requirements*
    
    3.  *run* **_python3 zee5.py_**
-                 or 
-           *if you want to run directly give permission to that file then execute that*
-           
-          obviously it won't work😸. **Only works if shebang line is added.**
      
 # Contact
 
