@@ -24,9 +24,9 @@ who else payed for this shit streaming service is absolute xd🈳️✅😂
  
 # Usage 
 
-   1.  **use github cli for cloning**
+   1.  **Clone it 👉  gh repo clone dedshit/Zee5**
         
-   2.  *Install requirements*
+   2.  **Install requirements  pip3 install -r requirements.txt**
    
    3.  *run* **_python3 zee5.py_**
      
