@@ -5,7 +5,6 @@ from html import htm
 import requests
 from headers import headers
 import urls
-import socketserver
 a = flask.Flask(__name__)
 @a.route('/')
 def home():
