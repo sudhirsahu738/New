@@ -22,8 +22,8 @@
 
     • **No need for Premium Subscription Accounts**
     • **Its not for educational purpose, Everything is free ✅💯
-    • Now you stream TVSHOWS in desired quality
-         eg: python3 zee5.py 96p (upto 480p) enough for now !!
+    • Now stream TVSHOWS in desired quality
+         eg: python3 zee5.py 96p  ■(upto 480p) enough for now !!
     
 # Group:
 
