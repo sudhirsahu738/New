@@ -24,6 +24,13 @@
     • **Its not for educational purpose, Everything is free ✅💯
     • Now stream TVSHOWS in desired quality
          eg: python3 zee5.py 96p  ■(upto 480p) enough for now !!
+         
+# Error:
+  
+<img src="https://media.publit.io/file/Screenshot_20201012-114616_Via.jpg" height="200" width="400" />
+    
+    If Error (Access Denied) occurs 
+       Replace old UserAgent in (zee/headers.py) with your UserAgent and run the program🎯💶
     
 # Group:
 
