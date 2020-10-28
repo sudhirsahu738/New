@@ -12,7 +12,7 @@
 
   To use this do the following things in your terminal
     
-    * giy clone https://www.github.com/dedshit/Zee5
+    * git clone https://www.github.com/dedshit/Zee5
     * cd Zee5
     * pip3 install -r requirements.txt
     * cd zee
