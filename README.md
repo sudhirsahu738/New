@@ -12,7 +12,7 @@
 
   To use this do the following things in your terminal
     
-    * gh repo clone dedshit/Zee5
+    * giy clone https://www.github.com/dedshit/Zee5
     * cd Zee5
     * pip3 install -r requirements.txt
     * cd zee
