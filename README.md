@@ -1,6 +1,8 @@
 # Zee5 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/fcbc4bb229fc4c4bab285e23552cbe61)
 # Stream *ZEE5* without Premium Subscription
 
+# FunnyBunnyYT  [Check out My Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
+
 # Features:
 
 - [x] Tv Shows  
@@ -43,8 +45,6 @@ check out Demo Video 👉
 
           Name : @°
      wa.me/+918428425154   
-     
-# FunnyBunnyYT  [Check out My Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
 
 | Version |          |
 | ------- |----------|
