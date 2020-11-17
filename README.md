@@ -14,7 +14,7 @@
 
   To use this do the following things in your terminal
     
-    * git clone https://www.github.com//Zee5
+    * git clone https://github.com/sudhirsahu738/New
     * cd Zee5
     * pip3 install -r requirements.txt
     * cd zee
@@ -27,24 +27,24 @@
     • Now stream TVSHOWS in desired quality
          eg: python3 zee5.py 96p  ■(upto 480p) enough for now !!
          
-# Error:
+
   
-<img src="https://media.publit.io/file/Screenshot_20201012-114616_Via.jpg" height="200" width="400" />
+
     
-    If Error (Access Denied) occurs 
-       Replace old UserAgent in (zee/headers.py) with your UserAgent and run the program🎯💶
 
-check out Demo Video 👉
-[Demo](https://media.publit.io/file/S.mp4)
 
-# Group:
 
- feel free join our Whatsapp Group https://chat.whatsapp.com/DeeyFu3OGG438qgJYrgX7f
+
+
+
+
+
+
  
 # Contact:
 
           Name : @°
-     wa.me/+918428425154   
+     wa.me/+917684852201   
 
 | Version |          |
 | ------- |----------|
