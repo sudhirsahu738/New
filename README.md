@@ -1,7 +1,7 @@
 # Zee5 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/fcbc4bb229fc4c4bab285e23552cbe61)
 # Stream *ZEE5* without Premium Subscription
 
-# FunnyBunnyYT  [Check out My Gaming Channel](https://www.youtube.com/channel/UCSiAsA3JxLZoFx63UTgTS3A?sub_confirmation=1)
+
 
 # Features:
 
@@ -14,7 +14,7 @@
 
   To use this do the following things in your terminal
     
-    * git clone https://www.github.com/dedshit/Zee5
+    * git clone https://www.github.com//Zee5
     * cd Zee5
     * pip3 install -r requirements.txt
     * cd zee
